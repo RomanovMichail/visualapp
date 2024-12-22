@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="71.0" prefWidth="465.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onAction="#removeInstr" prefHeight="25.0" prefWidth="34.0" text="x" />
+        <Button layoutX="48.0" layoutY="23.0" mnemonicParsing="false" onAction="#move_left" prefHeight="25.0" prefWidth="34.0" text="&lt;" />
+        <Button layoutX="82.0" layoutY="23.0" mnemonicParsing="false" onAction="#move_right" prefHeight="25.0" prefWidth="34.0" text="&gt;" />
+        <Label fx:id="func" layoutX="142.0" layoutY="27.0" prefHeight="17.0" prefWidth="75.0" text="Label" />
+        <Label fx:id="var" layoutX="217.0" layoutY="27.0" prefHeight="17.0" prefWidth="64.0" text="Label" />
+        <Label fx:id="val1" layoutX="291.0" layoutY="27.0" prefHeight="17.0" prefWidth="64.0" text="Label" />
+        <Label fx:id="val2" layoutX="365.0" layoutY="27.0" prefHeight="17.0" prefWidth="64.0" text="Label" />
+    </children>
+</Pane>
